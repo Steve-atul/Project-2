@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    position: relative;
+}
+
+.navbar{
+    display: flex;
+    background-color: #6F6AF7;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.dapper{
+    margin-left: 30px;
+    font-family: Delius Unicase;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 78.81px;
+    text-align: left;
+}
+
+.navmiddle{
+    display: flex;
+    justify-content: space-between;
+    width: 950px;
+    font-size: 40px;
+}
+
+.search{
+    width: 220px;
+    height: 35px;
+    background: white;
+    margin-top: 6px;
+    border-radius: 20px;
+    display: flex;
+    /* justify-content: center; */
+    align-self: center;
+    justify-content: space-between;
+}
+
+.search p{
+    color: #9F9F9F;
+    font-size: medium;
+    margin-top: 6px;
+    margin-left: 17px;
+}
+
+.search img{
+    width: 20px;
+    height: 20px;
+    margin-top: 6px;
+    margin-right: 17px;
+}
+
+.lines{
+    margin-right: 30px;
+}
+
+.lines img{
+    margin-top: 6px;
+    width: 40px;
+    height: 50px;
+}
+
+.frame2{
+    display: flex;
+    margin-top: 140px;
+    
+}
+
+.frame2 img{
+    width: 467px;
+    height: 350px;
+    margin-left: 100px;
+}
+
+.comment{
+    width: 972px;
+    height: 350px;
+    background: #E5D8FF;
+    margin-right: 100px;
+    margin-left: 45px;
+    border-radius: 15px;
+    border: none;
+    
+
+    
+}
+
+.comment p{
+    font-size: 28px;
+    margin-top: 30px;
+    margin-left: 35px;
+    font-weight: 300;
+    color: #6F7373;
+}
+
+.frame3{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    color: white;
+}
+
+.frame3-1{
+    width: 300px;
+    height: 100px;
+    background: #929DFF;
+    margin-left: 70px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.frame3-1 p{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.frame3-2{
+    width: 300px;
+    height: 100px;
+    background: #734CF2;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.frame3-2 p{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.frame3-3{
+    width: 300px;
+    height: 100px;
+    background: #D288FF;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.frame3-3 p{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.frame3-4{
+    width: 300px;
+    height: 100px;
+    background: #000000;
+    margin-right: 70px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.frame3-4 p{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+
+
+.call img{
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    position: fixed;
+    top: 625px;
+    right: 52px;
+}
+
+.frame4{
+    width: 1380px;
+    height: 500px;
+    background: #483EFF;
+    margin-left: 70px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.info div{
+    margin-left: 40px;
+    width: 300px;
+    height: 100px;
+    border: 2px solid white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 530;
+    
+}
+
+.your{
+    background: #BCE0F6;
+    color: #000000;
+}
+
+.details{
+    width: 940px;
+    height: 440px;
+    background: white;
+    margin-top: 30px;
+    margin-left: 70px;
+    border-radius: 10px;
+}
+
+.yi{
+    margin-top: 40px;
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.naam{
+    margin-top: 30px;
+    margin-left: 70px;
+    font-size: 20PX;
+}
+
+.button{
+    width: 125px;
+    height: 45px;
+    background: black;
+    color: white;
+    
+    margin-left: 780px;
+    margin-top: 90px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.icons{
+    top: 120px;
+    position: sticky;
+    float: right;
+    margin-top: 50px;
+    
+}
+
+.icons img{
+    
+    height: 200px;
+    
+}
